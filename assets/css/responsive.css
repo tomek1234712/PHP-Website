@@ -1,0 +1,454 @@
+/* desktop */
+
+
+
+
+@media (max-width: 1664px) {
+    .grafika_z_tytulem {
+        /*padding-top: 13%;*/
+    }
+}
+
+
+
+/* Smartphones */
+
+@media (max-width: 767px) {
+
+    .benefits-area {
+        width: auto;
+        transform: none;
+    }
+    .benefits-area ul {
+        padding: 10px;
+        list-style: none;
+    }
+
+    .benefits-area ul li {
+        width: 100%;
+        clear: both;
+        margin-bottom: 19px;
+    }
+
+    .benefits-area ul li .title {
+        color: #354461;
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 21px;
+        border-bottom: 1px solid #354461;
+        padding-bottom: 5px;
+        margin-bottom: 9px;
+    }
+
+    .benefits-area ul li .desc {
+        padding-bottom: 9px;
+    }
+
+    .benefits-area ul li .mouseover {}
+
+    a.footer-logo {
+        margin: 40px 0 30px 0;
+        text-align: center;
+    }
+
+    footer#footer {
+        text-align: center;
+    }
+
+    .footer-headline, .footer-headline-a > a {
+        margin: 10px auto;
+    }
+
+    .footer-text {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .top-bar.static-bar {
+        /* min-height: 302px; */
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 0px;
+        height: auto!important;
+    }
+
+    .top-bar-content {
+        position: static;
+        margin: 9px 0 2px 0;
+    }
+
+    .menu-home {
+        float: right;
+        margin: 5px 0px 4px 0px!important;
+    }
+
+    ul.general > li {
+        /* clear: both; */
+        display: block;
+        text-align: right;
+        float: left;
+        margin: 0px 0px 0px 16px;
+    }
+
+    ul.general > li a {
+        font-size: 17px;
+    }
+    .fixed-bar ul.general > li {
+        display: none;
+    }
+    .fixed-bar .menu-hamburger{
+
+        background-image: url(../images/icon-menu.svg);width: 30px;height: 22px;float: right;background-repeat: no-repeat;margin: 17px 0px 1px 1px;background-size: 29px;}
+    .top-bar.fixed-bar{
+        min-height: 56px;
+        height: auto;
+    }
+    .fixed-bar .menu-home{
+        margin: 13px 13px 13px 19px;
+    }
+    .fixed-bar ul.general > li.current_page_item,
+    .fixed-bar ul.general > li.menu-item-object-uczestnicy.current-menu-item{
+        display: block;
+    }
+
+    .top-bar.front-page .header-sentence {
+        margin-top: 2px;
+        text-align: center;
+    }
+
+    .page-section .first-title:after {
+        width: 90%!important;
+    }
+
+    .page-section .ico-box {
+        padding: 20px 10% 10px 10%;
+    }
+    .top-bar:not(.front-page) .header-sentence {
+        margin: 4px auto 0 auto;
+    }
+    .page-wrap img {
+        max-width: 100%;
+        height: auto!important;
+    }
+    .lex-block {
+        margin-bottom: 15px;
+    }
+
+    .s12_elems {
+        width: 100%;
+    }
+
+    .s12_elems .lex-block.e3 {
+        width: 43%;
+        margin: 1px 0px -77px 0px;
+    }
+
+    .s12_elems .lex-block.e4, .s12_elems .lex-block.e5, .s12_elems .lex-block.e6 {
+        margin: 10px 0 40px 10px;
+        float: right;
+        width: 44%;
+        clear: both;
+    }
+
+    .s12_elems .lex-block.e3:after {
+        height: 227px;
+        right: 10%;
+    }
+    .members .desc-bar {
+        min-height: 67px;
+        text-align: center;
+        height: auto;
+    }
+    .contactForm .success {
+        text-align: right;
+        margin-top: 8px;
+        clear: both;
+        width: 100%;
+    }
+    .question .t{
+        display: block;
+    }
+    .question .t .t-r{
+        display: block;
+    }
+    .question .t .t-c{
+        display: block;
+        width: 100%;
+    }
+    .question-radio-set {
+        margin: 20px auto;
+    }
+
+    span.question-set-title {
+        margin-top: 30px;
+    }
+    .buttons-set .lex-button {
+        width: 45%;
+    }
+    .s12_elems .lex-block.e2:after {
+        background-position: 32% center, 63% center;
+    }
+    .s12_elems .lex-block.e1,
+    .s12_elems .lex-block.e2{
+        display: block;
+        max-width: 100%;
+    }
+    .s12_elems .lex-block.e7,
+    .s12_elems .lex-block.e8{
+        display: block;
+        max-width: 100%;
+        clear: both;
+    }
+    .members .desc-bar-content {
+        height: auto;
+    }
+    .members .t-c {
+        vertical-align: bottom;
+    }
+    .desc-bar .t-c {
+        vertical-align: middle;
+    }
+    .page-section.calc-result a.lex-button {
+        text-align: center;
+    }
+    .kwadrat {
+        height: auto;
+        width: 100%;
+        padding: 20px 20px 50px 20px;
+        margin: 30px 0px;
+        float: none;
+    }
+
+    .kwadrat div.desc {
+        font-size: 16px;
+    }
+
+    .page-body {
+        min-height: auto;
+    }
+
+    .grafika_z_haslem {
+        min-height: auto;
+        background-size: cover;
+    }
+
+    .kwadrat div.desc {
+        position: relative;
+        z-index: 200;
+    }
+
+    .grafika_tresc article {
+        height: auto;
+        min-height: 1px;
+        padding-bottom: 28px;
+    }
+
+    .grafika_z_tytulem {
+        padding-top: 98px;
+    }
+
+    .tabelaBox .tabela .t-h {
+        font-size: 12px;
+        line-height: 11px!important;
+        padding: 7px 3px!important;
+        font-weight: 400;
+    }
+
+    .tabelaBox .tabela .t-c {
+        padding: 7px 12px;
+        line-height: 16px;
+    }
+
+    .pricebox {
+        margin: 88px auto 0px auto;
+    }
+
+    .mapa {
+        padding-top: 300px;
+    }
+
+    footer#footer section.s1 .footer-headline {
+        margin-top: 25px;
+    }
+
+    footer#footer section.s1 .footer-contact {
+        display: table;
+        margin: 20px auto 0px auto;
+    }
+
+    footer#footer section.s1 .footer-logo img {
+        margin-bottom: 24px;
+    }
+
+}
+
+@media (max-width: 327px) {
+    ul.general > li a {
+        font-size: 13px;
+    }
+    .kwadrat h1 {
+        font-size: 42px;
+    }
+    .tabelaBox .tabela .t-h {
+        font-size: 9px!important;
+    }
+    .tabelaBox .tabela .t-c{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) and (orientation : landscape) {
+
+}
+
+/* ============================ iPad 3 & 4 Media Queries ============================ */
+/* ================================================================================== */
+
+/* iPad in portrait & landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad in landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPad in portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* ============================ iPad mini Media Queries ============================ */
+/* ================================================================================= */
+
+/* iPad mini in portrait & landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* iPad mini in landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* iPad mini in portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+}
+
+/* ============================ iPhone Media Queries ============================ */
+/* ============================================================================== */
+
+/* iPhone 6 in portrait & landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+}
+
+/* iPhone 6 in landscape */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 6 in portrait */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+}
+
+/* ============================ iPhone 6 Plus Media Queries ============================ */
+/* ===================================================================================== */
+
+/* iPhone 6 Plus in portrait & landscape */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+}
+
+/* iPhone 6 Plus in landscape */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 6 Plus in portrait */
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+
+}
+
+/* ============================ iPhone 5 & 5S Media Queries ============================ */
+/* ===================================================================================== */
+
+/* iPhone 5 & 5S in portrait & landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+}
+
+/* iPhone 5 & 5S Plus in landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+
+}
+
+/* iPhone 5 & 5S Plus in portrait */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+}
